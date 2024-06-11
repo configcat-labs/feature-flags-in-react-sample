@@ -8,17 +8,35 @@ This app demonstrates the use of [ConfigCat's Feature Flags](https://configcat.c
 
 ## Build & Run
 
-### `npm run dev`
+1. Clone this repository:
 
-Runs the app in the development mode.
+```shell
+git clone git@github.com:configcat-labs/feature-flags-in-react-sample.git
+```
+
+2. Install the dependencies:
+
+```shell
+npm install
+```
+
+3. Run the app in development mode:
+
+```shell
+npm run dev
+```
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits. You will also see any lint errors in the console.
 
-### `npm run build`
+4. To build the app for production, execute:
 
-Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
+```shell
+npm run build
+```
+
+This command correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes. Your app is ready to be deployed!
 
