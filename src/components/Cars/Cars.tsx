@@ -1,4 +1,3 @@
-import React from "react";
 import { Car } from "@/components/Cars/Car";
 import { RaceStatus } from "@/components/RaceStatus";
 import { useFeatureFlag } from "configcat-react";

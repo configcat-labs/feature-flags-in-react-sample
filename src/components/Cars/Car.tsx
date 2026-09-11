@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 import type { TImage } from "@/Types";
 
 interface CarProps {
@@ -8,7 +7,7 @@ interface CarProps {
 }
 
 export const Car = ({ carImage, raceMode }: CarProps) => {
-  let customClass = raceMode ? `car-image ${carImage.class}` : "car-image";
+  const customClass = raceMode ? carImage.class : "";
 
   return (
     <div className="car-container">
