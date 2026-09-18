@@ -7,7 +7,7 @@ import sedan from "../../assets/images/sedan.png";
 import sportsCar from "../../assets/images/sports-car.png";
 
 export const Cars = () => {
-  const { value, loading } = useFeatureFlag("YOUR-FEATURE-FLAG-KEY", false);
+  const { value, loading } = useFeatureFlag("simulateCarRace", false);
 
   const images: TImage[] = [
     {
