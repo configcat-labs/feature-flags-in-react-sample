@@ -3,7 +3,6 @@
 This is a companion app for the blog post titled [**Using Feature Flags in a React.js Application**](https://configcat.com/blog/feature-flags-in-react/).
 
 This app demonstrates the use of [ConfigCat's Feature Flags](https://configcat.com/docs/) in a React application, showcasing how a feature flag can be used to toggle three cars racing towards a finish line.
-
 ![Screenshot of App](https://configcat.com/blog/assets/images/react-cars-2eb3fd410ffa47d35a9bcd74a5a5137d.png)
 
 ## Build & Run
