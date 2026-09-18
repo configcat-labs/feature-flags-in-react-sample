@@ -25,7 +25,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
 The page will reload if you make edits. You will also see any lint errors in the console.
 
@@ -35,19 +35,17 @@ The page will reload if you make edits. You will also see any lint errors in the
 npm run build
 ```
 
-This compiles and optimizes the app for production into the `.next` folder.
+This compiles and optimizes the app for production into the `dist` folder.
 
-5. To run the production build locally, run:
+5. To preview the production build locally, run:
 
 ```shell
-npm run start
+npm run preview
 ```
-
-See the section about [deployment](https://nextjs.org/docs/app/building-your-application/deploying) for more information.
 
 ## Learn more
 
-To learn Next.js, check out the [Next.js documentation](https://nextjs.org/docs).
+To learn Vite, check out the [Vite documentation](https://vite.dev/guide/).
 
 To learn React, check out the [React documentation](https://react.dev/learn).
 
