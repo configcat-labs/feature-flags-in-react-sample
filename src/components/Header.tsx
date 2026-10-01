@@ -1,12 +1,11 @@
-import React from "react";
-import Image from "next/image";
+import checkeredFlag from "../assets/images/checkered-flag.png";
 
 export const Header = () => {
   return (
     <div className="header">
       RACE TIME
-      <Image
-        src="/images/checkered-flag.png"
+      <img
+        src={checkeredFlag}
         width={100}
         height={100}
         alt="flag"

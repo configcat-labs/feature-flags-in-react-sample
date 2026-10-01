@@ -1,6 +1,4 @@
-import Image from "next/image";
-import React from "react";
-import type { TImage } from "@/Types";
+import type { TImage } from "../../types/TImage";
 
 interface CarProps {
   carImage: TImage;
@@ -8,17 +6,17 @@ interface CarProps {
 }
 
 export const Car = ({ carImage, raceMode }: CarProps) => {
-  let customClass = raceMode ? `car-image ${carImage.class}` : "car-image";
+  const customClass = raceMode ? carImage.class : "";
 
   return (
     <div className="car-container">
-      <Image
+      <img
         src={carImage.link}
         alt={carImage.class}
         className={`car-image ${customClass}`}
         width={100}
         height={100}
-      ></Image>
+      ></img>
     </div>
   );
 };
